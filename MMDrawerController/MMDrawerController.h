@@ -410,4 +410,12 @@ typedef void (^MMDrawerControllerDrawerVisualStateBlock)(MMDrawerController * dr
  */
 -(void)setGestureShouldRecognizeTouchBlock:(BOOL(^)(MMDrawerController * drawerController, UIGestureRecognizer * gesture, UITouch * touch))gestureShouldRecognizeTouchBlock;
 
+///---------------------------------------
+/// @name Enable/Disable pan gesture recognizer
+///---------------------------------------
+
+-(void)enablePan;
+
+-(void)disablePan;
+
 @end
